@@ -1,0 +1,22 @@
+#wrapper {
+	background-image: url("../images/Landing.jpg");
+	width: 100%;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+
+body {
+	margin:0 auto;
+}
+
+h1 {
+	text-align: center;
+	position: absolute;
+	top: 120px;
+	left:427px;
+	font-size: 60px;
+	font-family: Papyrus, fantasy;
+	color: #1C0F1B;
+}
