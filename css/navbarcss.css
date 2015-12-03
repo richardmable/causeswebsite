@@ -1,0 +1,61 @@
+.navbar {
+	margin: 0 auto;
+	text-align: center;
+	height: 125px;
+	width: 100%;
+	position: fixed;
+	background-color: blue;
+	opacity: .7;
+	top: 0;
+}
+
+.navbar ul li {
+	list-style-type: none;
+	display: inline;
+	margin: 10px 50px 10px 50px;
+}
+
+.navbar ul li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: blue;
+}
+
+.button {
+	height: 76px;
+	width: 350px;
+	background-color: red;
+	border-style: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 25px 10px 25px;
+	transition: all;
+}
+
+.button a {
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.button a:after {
+	content: ' GO!';
+	opacity: 0;
+	font-style: italic;
+	right: -20px;
+	transition: 0.5s;
+	color: yellow;
+}
+
+.button:hover a {
+	padding-right: 50px;
+	color: yellow;
+}
+
+.button:hover a:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+
+
