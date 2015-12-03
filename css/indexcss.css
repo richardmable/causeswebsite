@@ -1,0 +1,74 @@
+body{
+	background-image: url(../images/body.jpg);
+	background-attachment: fixed;
+	width:100%;
+	margin: 0 auto;
+}
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgba(191, 62, 0, .7);
+}
+
+.iverson {
+	width: 300px;
+	float: left;
+}
+
+#wrapper h1 {
+	font-family: baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 50px;
+	color: #003F7C;
+	opacity: 1;
+}
+
+#wrapper h3 {
+	font-family: baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 30px;
+	color: #003F7C;
+	opacity: 1;
+
+}
+
+#wrapper p {
+	font-family: baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 18px;
+	color: #003F7C;
+	line-height: 1.5em;
+	opacity: 1;
+}
+
+.iverson-scream{
+	width: 300px;
+	float: right;
+}
+
+.video {
+	position: relative;
+	left: 125px;
+}
+
+#wrapper h2 {
+	font-family: baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 30px;
+	color: #003F7C;
+	opacity: 1;
+	text-align: center;
+}
+
+.jalil {
+	width: 100%;
+}
+
+.button {
+	background-color: rgba(0, 63, 124, .7);
+	color: #BF3E00;
+	text-align: center;
+	font-size:24px;
+	border-radius: 8px;
+	width: 25%;
+	position: relative;
+	left:325px;
+	cursor: pointer;
+}
+
