@@ -16,28 +16,36 @@
 }
 
 .navbar ul li a {
-	font-size: 20px;
+	
 	text-decoration: none;
 	color: blue;
 }
 
-.button {
+.buttonnav {
 	height: 76px;
 	width: 350px;
 	background-color: red;
 	border-style: none;
 	border-radius: 5px;
 	cursor: pointer;
-	padding: 10px 25px 10px 25px;
+	padding: 20px 25px 10px 35px;
 	transition: all;
 }
 
-.button a {
+.buttonnav button {
+	background-color: red;
+	border-style: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.buttonnav a  {
 	cursor: pointer;
 	transition: 0.5s;
 }
 
-.button a:after {
+.buttonnav a:after {
 	content: ' GO!';
 	opacity: 0;
 	font-style: italic;
@@ -46,18 +54,20 @@
 	color: yellow;
 }
 
-.button:hover a {
-	padding-right: 50px;
-	color: yellow;
+.buttonnav:hover a {
+	padding-right: 30px;
 }
 
-.button:hover a:after {
+.buttonnav:hover a button {
+	color: yellow;
+}
+.buttonnav:hover a:after {
 	opacity: 1;
 	right: 0;
 }
 
 .icon-social-facebook {
-	
+
 }
 
 
