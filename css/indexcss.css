@@ -13,6 +13,16 @@ body{
 .iverson {
 	width: 300px;
 	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border-radius: 40px;
+	background-color: rgba(0, 32, 63, .7);
+	opacity: .5;
+	transition: 2s;
+}
+.iverson:hover {
+	opacity: 1;
+	cursor: url("../images/basketball.gif"), auto;
 }
 
 #wrapper h1 {
@@ -41,11 +51,23 @@ body{
 .iverson-scream{
 	width: 300px;
 	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	border-radius: 40px;
+	background-color: rgba(0, 32, 63, .7);
+	opacity: .5;
+	transition: 2s;
+}
+
+.iverson-scream:hover {
+	opacity: 1;
+	cursor: url("../images/basketball.gif"), auto;
 }
 
 .video {
 	position: relative;
 	left: 125px;
+	border-radius: 16px;
 }
 
 #wrapper h2 {
@@ -56,9 +78,61 @@ body{
 	text-align: center;
 }
 
-.jalil {
+.jahlil {
 	width: 100%;
+	border-radius: 50%;
+	transition: 4s;
+	opacity:1;
+	positon: absolute;
+	top: 1946px;
+	z-index: 1;
 }
+
+.jahlil:hover {
+	opacity: .2;
+	cursor: url("../images/basketball.gif"), auto;
+}
+
+.arrest {
+	margin-top: 80px;
+
+}
+
+.fadeout {
+	/*background-color: #000;
+*/	width: 900px;
+	height: 600px;
+	border-radius: 50%;	
+	background-image: url("../images/cell-bars.png-c200");
+}
+
+.fadeout:hover {
+	opacity:1;
+	background-image: url("..?images/cell-bars.png-c200");
+}
+
+.back {
+	width: 900px;
+	height: 600px;
+	border-radius: 50%;
+	background-color: #000;	
+}
+
+.jail {
+	background-color: #000;
+	width: 900px;
+	height: 600px;
+	border-radius: 50%;
+	opacity:0;
+	transition: 3s;
+	z-index:0;
+
+}
+.jail:hover {
+	opacity:1;
+}
+
+
 
 .button {
 	background-color: rgba(0, 63, 124, .7);
@@ -67,8 +141,58 @@ body{
 	font-size:24px;
 	border-radius: 8px;
 	width: 25%;
-	position: relative;
-	left:325px;
+	position: absolute;
+	left:480px;
 	cursor: pointer;
+	margin-top: 20px;
+
 }
 
+.foot {
+	height:200px;
+	width:100%;
+	position: relative;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color: black;
+	margin-bottom: auto;
+
+}
+.gold-logo{
+	width:20%;
+	float: left;
+	opacity:.8;
+}
+
+.foot ul {
+
+	float: left;
+	position: relative;
+	left: 50px;
+
+}
+
+.foot li {
+	display: inline;
+	font-size: 24px;
+	padding: 20px;
+	color:white;
+	
+}
+
+.foot li a {
+	color:white;
+	text-decoration: none;
+	transition: 2s;
+} 
+
+.foot li a:hover {
+	text-decoration: underline;
+}
+
+.franklin {
+	float: right;
+	width:134px;
+	opacity:.8;
+}
