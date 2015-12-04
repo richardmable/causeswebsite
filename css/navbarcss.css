@@ -1,43 +1,44 @@
 .navbar {
 	margin: 0 auto;
-	text-align: center;
 	height: 125px;
 	width: 100%;
+	text-align: center;
 	position: fixed;
 	background-color: blue;
 	opacity: .7;
 	top: 0;
 }
 
-.navbar ul li {
-	list-style-type: none;
-	display: inline;
-	margin: 10px 50px 10px 50px;
-}
-
-.navbar ul li a {
-	font-size: 20px;
+.buttonnav {
+	height: 45px;
+	width: 350px;
+	margin: 10px 20px 0px 20px;
+	display: inline-block;
 	text-decoration: none;
 	color: blue;
+	font-size: 35px;
+	background-color: red;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	transition: all;
 }
 
-.button {
-	height: 76px;
-	width: 350px;
+/*
+.buttonnav button {
 	background-color: red;
 	border-style: none;
 	border-radius: 5px;
 	cursor: pointer;
-	padding: 10px 25px 10px 25px;
-	transition: all;
+	font-size: 30px;
 }
 
-.button a {
+.buttonnav a  {
 	cursor: pointer;
 	transition: 0.5s;
 }
 
-.button a:after {
+.buttonnav a:after {
 	content: ' GO!';
 	opacity: 0;
 	font-style: italic;
@@ -46,18 +47,20 @@
 	color: yellow;
 }
 
-.button:hover a {
-	padding-right: 50px;
+.buttonnav:hover a {
+	padding-right: 30px;
+}
+
+.buttonnav:hover a button {
 	color: yellow;
 }
-
-.button:hover a:after {
+.buttonnav:hover a:after {
 	opacity: 1;
 	right: 0;
-}
+}*/
 
 .icon-social-facebook {
-	
+
 }
 
 
