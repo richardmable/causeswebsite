@@ -1,37 +1,30 @@
 .navbar {
 	margin: 0 auto;
-	text-align: center;
 	height: 125px;
 	width: 100%;
+	text-align: center;
 	position: fixed;
 	background-color: blue;
 	opacity: .7;
 	top: 0;
 }
 
-.navbar ul li {
-	list-style-type: none;
-	display: inline;
-	margin: 10px 50px 10px 50px;
-}
-
-.navbar ul li a {
-	
+.buttonnav {
+	height: 45px;
+	width: 350px;
+	margin: 10px 20px 0px 20px;
+	display: inline-block;
 	text-decoration: none;
 	color: blue;
-}
-
-.buttonnav {
-	height: 76px;
-	width: 350px;
+	font-size: 35px;
 	background-color: red;
-	border-style: none;
 	border-radius: 5px;
 	cursor: pointer;
-	padding: 20px 25px 10px 35px;
+	padding: 10px;
 	transition: all;
 }
 
+/*
 .buttonnav button {
 	background-color: red;
 	border-style: none;
@@ -64,7 +57,7 @@
 .buttonnav:hover a:after {
 	opacity: 1;
 	right: 0;
-}
+}*/
 
 .icon-social-facebook {
 
