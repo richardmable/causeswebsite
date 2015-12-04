@@ -22,6 +22,7 @@ body{
 }
 .iverson:hover {
 	opacity: 1;
+	cursor: url("../images/basketball.gif"), auto;
 }
 
 #wrapper h1 {
@@ -60,6 +61,7 @@ body{
 
 .iverson-scream:hover {
 	opacity: 1;
+	cursor: url("../images/basketball.gif"), auto;
 }
 
 .video {
@@ -88,6 +90,7 @@ body{
 
 .jahlil:hover {
 	opacity: .2;
+	cursor: url("../images/basketball.gif"), auto;
 }
 
 .arrest {
@@ -100,12 +103,12 @@ body{
 */	width: 900px;
 	height: 600px;
 	border-radius: 50%;	
-/*	background-image: url(images/cell-bars.png-c200);*/
+	background-image: url("../images/cell-bars.png-c200");
 }
 
 .fadeout:hover {
 	opacity:1;
-/*	background-image: url(images/cell-bars.png-c200);*/
+	background-image: url("..?images/cell-bars.png-c200");
 }
 
 .back {
@@ -145,3 +148,51 @@ body{
 
 }
 
+.foot {
+	height:200px;
+	width:100%;
+	position: relative;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color: black;
+	margin-bottom: auto;
+
+}
+.gold-logo{
+	width:20%;
+	float: left;
+	opacity:.8;
+}
+
+.foot ul {
+
+	float: left;
+	position: relative;
+	left: 50px;
+
+}
+
+.foot li {
+	display: inline;
+	font-size: 24px;
+	padding: 20px;
+	color:white;
+	
+}
+
+.foot li a {
+	color:white;
+	text-decoration: none;
+	transition: 2s;
+} 
+
+.foot li a:hover {
+	text-decoration: underline;
+}
+
+.franklin {
+	float: right;
+	width:134px;
+	opacity:.8;
+}
