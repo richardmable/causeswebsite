@@ -65,6 +65,7 @@ body{
 .video {
 	position: relative;
 	left: 125px;
+	border-radius: 16px;
 }
 
 #wrapper h2 {
@@ -77,7 +78,55 @@ body{
 
 .jahlil {
 	width: 100%;
+	border-radius: 50%;
+	transition: 4s;
+	opacity:1;
+	positon: absolute;
+	top: 1946px;
+	z-index: 1;
+}
 
+.jahlil:hover {
+	opacity: .2;
+}
+
+.arrest {
+	margin-top: 80px;
+
+}
+
+.fadeout {
+	/*background-color: #000;
+*/	width: 900px;
+	height: 600px;
+	border-radius: 50%;	
+/*	background-image: url(images/cell-bars.png-c200);*/
+}
+
+.fadeout:hover {
+	opacity:1;
+/*	background-image: url(images/cell-bars.png-c200);*/
+}
+
+.back {
+	width: 900px;
+	height: 600px;
+	border-radius: 50%;
+	background-color: #000;	
+}
+
+.jail {
+	background-color: #000;
+	width: 900px;
+	height: 600px;
+	border-radius: 50%;
+	opacity:0;
+	transition: 3s;
+	z-index:0;
+
+}
+.jail:hover {
+	opacity:1;
 }
 
 
@@ -90,7 +139,9 @@ body{
 	border-radius: 8px;
 	width: 25%;
 	position: absolute;
-	left:325px;
+	left:480px;
 	cursor: pointer;
+	margin-top: 20px;
+
 }
 
