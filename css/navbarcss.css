@@ -24,6 +24,20 @@
 	transition: all;
 }
 
+.buttonnav a {
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.buttonnav a:after {
+	content: ' GO!';
+	opacity: 0;
+	font-style: italic;
+	right: -20px;
+	transition: 0.5s;
+	color: yellow;
+}
+
 /*
 .buttonnav button {
 	background-color: red;
