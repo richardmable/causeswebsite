@@ -1,12 +1,13 @@
-body{
+body {
 	background-image: url(../images/body.jpg);
 	background-attachment: fixed;
 	width:100%;
 	margin: 0 auto;
 }
+
 #wrapper {
 	width: 900px;
-	margin: 0 auto;
+	margin: 125px auto;
 	background-color: rgba(191, 62, 0, .7);
 }
 
@@ -20,6 +21,7 @@ body{
 	opacity: .5;
 	transition: 2s;
 }
+
 .iverson:hover {
 	opacity: 1;
 	cursor: url("../images/basketball.gif"), auto;
@@ -37,7 +39,6 @@ body{
 	font-size: 30px;
 	color: #003F7C;
 	opacity: 1;
-
 }
 
 #wrapper p {
@@ -46,9 +47,10 @@ body{
 	color: #003F7C;
 	line-height: 1.5em;
 	opacity: 1;
+	padding: 0px 25px 0px 25px;
 }
 
-.iverson-scream{
+.iverson-scream {
 	width: 300px;
 	float: right;
 	margin-left: 15px;
@@ -95,12 +97,10 @@ body{
 
 .arrest {
 	margin-top: 80px;
-
 }
 
 .fadeout {
-	/*background-color: #000;
-*/	width: 900px;
+	width: 900px;
 	height: 600px;
 	border-radius: 50%;	
 	background-image: url("../images/cell-bars.png-c200");
@@ -123,72 +123,63 @@ body{
 	width: 900px;
 	height: 600px;
 	border-radius: 50%;
-	opacity:0;
+	opacity: 0;
 	transition: 3s;
-	z-index:0;
-
+	z-index: 0;
 }
+
 .jail:hover {
 	opacity:1;
 }
 
-
-
-.button {
+button {
 	background-color: rgba(0, 63, 124, .7);
 	color: #BF3E00;
 	text-align: center;
-	font-size:24px;
+	font-size: 24px;
 	border-radius: 8px;
-	width: 25%;
-	position: absolute;
-	left:480px;
+	width: 200px;
+	position: rea;
+	left: 350px;
 	cursor: pointer;
 	margin-top: 20px;
-
 }
 
-.foot {
-	height:200px;
-	width:100%;
-	position: relative;
-	right:0;
-	bottom:0;
-	left:0;
-	background-color: black;
-	margin-bottom: auto;
-
-}
-.gold-logo{
+.gold-logo {
 	width:20%;
 	float: left;
 	opacity:.8;
 }
 
-.foot ul {
-
-	float: left;
-	position: relative;
-	left: 50px;
-
+footer {
+	margin: 0 auto;
+	text-align: center; 
+	height: 200px;
+	width: 100%;
+	background-color: black;
+	margin-bottom: auto;
 }
 
-.foot li {
-	display: inline;
+footer ul {
+	float: left;
+	left: 50px;
+}
+
+footer li {
+	list-style-type: none;
 	font-size: 24px;
 	padding: 20px;
-	color:white;
-	
+	color: white;
 }
 
-.foot li a {
+footer li a {
 	color:white;
 	text-decoration: none;
 	transition: 2s;
 } 
 
-.foot li a:hover {
-	text-decoration: underline;
+footer li a:hover {
+	color: #DE480D;
 }
 
 .franklin {
