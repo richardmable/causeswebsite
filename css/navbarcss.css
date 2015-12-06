@@ -4,9 +4,11 @@
 	width: 100%;
 	text-align: center;
 	position: fixed;
-	background-color: white;
+	background-color: #FF9064;
 	opacity: .7;
 	top: 0;
+	font-family: baskerville,'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	z-index: 1;
 }
 
 .buttonnav {
@@ -15,9 +17,9 @@
 	margin: 10px 20px 0px 20px;
 	display: inline-block;
 	text-decoration: none;
-	color: blue;
+	color: #DE480D;
 	font-size: 35px;
-	background-color: red;
+	background-color: #11588F;
 	border-radius: 5px;
 	cursor: pointer;
 	padding: 10px;
@@ -30,12 +32,12 @@
 	font-style: italic;
 	right: -20px;
 	transition: 0.5s;
-	color: yellow;
+	color: #F4C539;
 }
 
 .buttonnav:hover {
 	padding-right: 30px;
-	color: yellow;
+	color: #F4C539;
 }
 
 .buttonnav:hover:after {
@@ -44,7 +46,7 @@
 }
 
 .icon-social-facebook {
-	margin: 0px 50px 0px 20px;
+	margin: 20px 50px 0px 20px;
 	float: right;
 	font-size: 50px;
 	color: black;
@@ -61,6 +63,7 @@
 }
 
 .icon-social-twitter {
+	margin-top: 20px;
 	float: right;
 	font-size: 50px;
 	color: black;
