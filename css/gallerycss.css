@@ -7,9 +7,9 @@ body{
 
 #wrapper {
 	width: 900px;
-	margin: 0 auto;
+	margin: 125px auto;
 	background-color: rgba(191, 62, 0, .6);
-	height:2200px;
+	height: 2200px;
 }
  
 #wrapper h1 {
@@ -221,39 +221,41 @@ body{
 	opacity: 1;
 }
 
-.buttonnav {
+.buttonnav2 {
+	font-family: baskerville,'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	height: 45px;
-	width: 350px;
+	width: 250px;
 	margin: 10px 20px 0px 20px;
 	display: inline-block;
 	text-decoration: none;
-	color: blue;
-	font-size: 35px;
-	background-color: red;
+	color: #DE480D;
+	background-color: #11588F;
 	border-radius: 5px;
-	cursor: pointer;
 	padding: 10px;
+	font-size: 35px;
+	background-color: #11588F;
+	cursor: pointer;
 	transition: 0.5s;
 	position: absolute;
 	top:1630px;
 	left:400px;
 }
 
-.buttonnav:after {
+.buttonnav2:after {
 	content: ' Please!?! ';
 	opacity: 0;
 	font-style: italic;
 	right: -20px;
 	transition: 0.5s;
-	color: yellow;
+	color: #F4C539;
 }
 
-.buttonnav:hover {
+.buttonnav2:hover {
 	padding-right: 30px;
-	color: yellow;
+	color: #F4C539;
 }
 
-.buttonnav:hover:after {
+.buttonnav2:hover:after {
 	opacity: 1;
 	right: 0;
 }
@@ -272,6 +274,50 @@ body{
 	color: #003F7C;
 }
 
+.gold-logo {
+	width:20%;
+	float: left;
+	opacity:.8;
+}
+
+footer {
+	position: absolute;
+	
+	text-align: center; 
+	height: 200px;
+	width: 100%;
+	background-color: black;
+
+}
+
+footer ul {
+	float: left;
+	position: relative;
+	left: 85px;
+}
+
+footer li {
+	list-style-type: none;
+	font-size: 24px;
+	padding: 20px;
+	color: white;
+}
+
+footer li a {
+	color:white;
+	text-decoration: none;
+	transition: 2s;
+} 
+
+footer li a:hover {
+	color: #DE480D;
+}
+
+.franklin {
+	float: right;
+	width:134px;
+	opacity:.8;
+}
 
 
 
