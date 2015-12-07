@@ -299,6 +299,7 @@ footer ul {
 
 footer li {
 	list-style-type: none;
+	display: inline;
 	font-size: 24px;
 	padding: 20px;
 	color: white;
